@@ -1,0 +1,311 @@
+@media(min-width:560px){
+    #gallery .container {
+        margin: 0 10%;
+    }
+}
+
+
+@media(min-width:740px){
+    #gallery .card{
+        max-width: 522px;
+    }
+}
+
+@media(min-width:769px){
+
+
+
+
+    #gallery .images{
+        columns:3 290px;
+        gap: 15px;
+    }
+
+
+    #gallery .item-5{
+    }
+}
+
+@media(min-width:800px){
+
+
+    *{
+        box-sizing: border-box;
+    }
+    
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    body{
+        margin: 0;
+    }
+    
+    .navbar{
+        background-color: #ffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        left: 0;
+        overflow: auto;
+    }
+    
+    
+    .navbar .logo{
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #212529;
+    }
+    
+    .navbar .logo span{
+        color:#CF1212;
+    }
+    
+    .navbar .links i{
+        font-size: 30px;
+    }
+    
+    .link{
+        display: none;
+    }
+    
+    
+    .link ul{
+        padding: 0;
+    }
+    
+    .link ul li{
+        list-style: none;
+        padding-right: 100px;
+        padding-block: 10px;
+    }
+    
+    .link a{
+        padding: 10px;
+    }
+    
+    
+    
+    
+    #home{
+        background-color: #EEEEEE;
+        height: 100%;
+        margin-top: 95px;
+        padding: 40px 15px;
+    }
+    
+
+    
+    #home .page{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    
+    #home .container .content{
+    }
+    
+    #home .container .content .caption{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    #home .container .img{
+    }
+    
+    .container .img img{
+        width: 100%;
+    }  
+    #chefs .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+    #chefs .card{
+        transition: all 0.6s;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        width: 100%;
+        flex-basis: 50%;
+    }
+    
+}
+
+
+@media(min-width:1000px){
+    #home .page{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    #home .container .img{
+        width: 30%;
+        text-align: center;
+    }
+    
+    .container .img img{
+        width: 100%;
+        display: block;
+    }
+
+    #home .container .caption{
+    }
+
+    #home .container .content{
+        width: 50%;
+        height: fit-content;
+    }
+
+
+
+    #home .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 20%;
+    
+    }
+    
+    #home .a-btn{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    #home .content button{
+        padding: 10px 25px;
+        border-radius: 0 20px 20px 20px;
+        border: 2px ;
+        background-color: #CF1212;
+    }
+    
+  
+    #chefs .container{
+        position: relative;
+        margin-block: 50px;
+        margin: 50px 10%;
+    }
+
+    #chefs .cards{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    
+    #chefs .card{
+        transition: all 0.6s;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 10px;
+        margin-right: 30px;
+        width: 100%;
+        flex-basis: 50%;
+    }
+}
+
+
+
+
+
+@media(min-width:1200px){
+
+
+    .navbar{
+        background-color: #ffff;
+        display: flex;
+        justify-content: space-around;
+        /* gap: 50%; */
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        left: 0;
+        overflow: auto;
+    }
+    
+    
+    .navbar .logo{
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #212529;
+    }
+    
+    .navbar .logo span{
+        color:#CF1212;
+    }
+    
+    .navbar .links i{
+        font-size: 30px;
+        display: none;
+    }
+    
+    .link{
+        display: block;
+        
+    }
+    
+    
+    .link ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .link ul li{
+        list-style: none;
+        padding-right: 0px;
+        padding-block: 0px;
+    }
+    
+    .link a{
+        padding: 5px 15px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    #home .container .content .caption{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    #home .row{
+        display: flex;
+        justify-content:flex-start;
+        width: 100%;
+        gap: 10%;
+    }
+
+    #home .content h2{
+        text-align: start;
+    }
+
+    #home .content p{
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-block: 30px;
+        color: #4F4F5A;
+        text-align: start;
+    }
+}
+
+
